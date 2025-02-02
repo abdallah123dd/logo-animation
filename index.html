@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            overflow: hidden;
+            white-space: nowrap;
+            width: 100%;
+            height: 100px;
+        }
+
+        .slider {
+            display: inline-block;
+            animation: slide 10s linear infinite;
+        }
+
+        .slider img {
+            display: inline-block;
+            margin: 0 20px;
+            height: 100px;
+        }
+
+        @keyframes slide {
+            from { transform: translateX(0); }
+            to { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <img src="https://drive.google.com/file/d/1K8HxVViPCkWNkK3yT59-l4LIdeJhyEwo/view?usp=drive_link" alt="Logo">
+            <img src="https://drive.google.com/file/d/1K8HxVViPCkWNkK3yT59-l4LIdeJhyEwo/view?usp=drive_link" alt="Logo">
+            <img src="https://drive.google.com/file/d/1K8HxVViPCkWNkK3yT59-l4LIdeJhyEwo/view?usp=drive_link" alt="Logo">
+            <img src="https://drive.google.com/file/d/1K8HxVViPCkWNkK3yT59-l4LIdeJhyEwo/view?usp=drive_link"Logo">
+        </div>
+    </div>
+</body>
+</html>
